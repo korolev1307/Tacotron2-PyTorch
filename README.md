@@ -6,7 +6,7 @@ Also, optimized for actual version of libraries such as torch and librosa, and u
 Currently only support [LJ Speech](https://keithito.com/LJ-Speech-Dataset/) format dataset. You can modify `hparams.py` for different sampling rates. `prep` decides whether to preprocess all utterances before training or online preprocess. `pth` sepecifies the path to store preprocessed data. 
 But you can use own dataset in the same format as [LJ Speech](https://keithito.com/LJ-Speech-Dataset/).
 
-##Phonemizer 
+## Phonemizer 
 Currently used and test phonemizer [XPhoneBERT](https://github.com/thelinhbkhn2014/Text2PhonemeSequence). You should preprocess your dataset and replace graphemes by their phonemes. 
 
 ## Training
